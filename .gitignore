@@ -1,0 +1,45 @@
+# ===== 大型公开原始数据（按 Declarations 从公开渠道重新获取，不入库）=====
+# TCGA-ESCA：GDC Data Portal (https://portal.gdc.cancer.gov)
+# GSE20347 / GSE45670 / GSE53624：GEO (https://www.ncbi.nlm.nih.gov/geo)
+data/tcga/
+data/geo/
+
+# ===== 二进制交付物（另行经 Zenodo/GitHub Release 存档）=====
+submission_package/
+*.zip
+
+# ===== 临时文件 =====
+*.tmp
+__pycache__/
+.Rhistory
+.RData
+.DS_Store
+
+# ===== 输出目录（由脚本再生，核心中间结果在 results/ 已入库）=====
+output/
+
+# ===== 非公开内容：未发表稿件全文、投稿文书与内部工作文档 =====
+# 这些文件随投稿包交付，但不进公开仓库：
+#  - 主稿未发表全文（公开等同预印本，而 cover letter 未声明）
+#  - 含修回预案/APC/期刊决策的内部文档（审稿人可见即为被动）
+manuscript/manuscript_EN.md
+manuscript/manuscript_EN.docx
+manuscript/manuscript_CN_with_figures.pdf
+manuscript/manuscript_EN_review_with_figures.pdf
+manuscript/manuscript.md
+manuscript/cover_letter_JTM.*
+manuscript/title_page.*
+manuscript/declaration_of_interest.*
+manuscript/PRISMA_checklist*
+manuscript/submission_checklist_JTM.md
+manuscript/figures_collection.html
+manuscript/_deprecated/
+SUBMISSION_GUIDE_JTM.md
+SUBMISSION_STATUS.md
+project/audit_report/
+project/decisions/
+project/fixes/
+figures/
+manuscript/PROSPERO_registration_draft.md
+manuscript/highlights.md
+VennDiagram.*.log

@@ -1,0 +1,21 @@
+[DEPRECATED — 2026-10-21] This summary was produced by the ORIGINAL audit (script 18) and its validation-classification numbers (external validation 21.0%, no validation 71.2%) were superseded by the final TRIPOD audit (script 21), whose numbers (external 26.8%, no validation 69.3%) are the ones reported in the manuscript and in tripod_summary.txt / tripod_audit.csv. This file is retained for the audit trail only.
+The AUC statistics (median 0.770; 43.5% >= 0.80) remain valid and are quoted in the manuscript.
+======================================================================
+===== ESCC 预后模型研究验证实践文献审计 =====
+
+检索式: PubMed, 2015-2026, 英文
+命中 208 篇; 预后建模研究且有摘要 205 篇
+
+报告独立外部验证:               43 (21.0%)
+报告内部拆分/交叉验证:          21 (10.2%)
+两者均报告:                      5 (2.4%)
+两者均未提及:                  146 (71.2%)
+明确说明验证中重跑建模流程:      0 (0.0%)
+报告 AUC/C-index:               81 (39.5%)
+
+AUC/C-index: 中位 0.770, 范围 0.672-0.999
+  >=0.80: 43.5%
+
+样本量: 中位 179, 范围 28-3407
+
+年份分布: {'2017': 3, '2018': 3, '2019': 7, '2020': 9, '2021': 25, '2022': 33, '2023': 31, '2024': 31, '2025': 35, '2026': 28}

@@ -1,0 +1,67 @@
+===== 32_pipeline_bootstrap.R summary =====
+Run time: 2026-10-23 22:36:57 - 2026-10-23 22:45:56
+
+--- Design and fidelity checks ---
+Modelling cohort: TCGA-ESCC n=94, events=31 (consistent with 05_lasso_model.R)
+Candidate pool: 714 consensus DEGs (of the 719 consensus DEGs present in the expression matrix)
+Univariable screening threshold P<0.05; LASSO: 10-fold CV, lambda.min (as in the original pipeline)
+Re-run univariable screening gene count: 48 (reference prognostic_genes.tsv: 48)
+Re-run LASSO gene count: 17 (reference lasso_model.rds: 17), lambda.min=0.0373 (reference 0.0373)
+Original full-sample 17-gene model apparent C-index = 0.8328 (consistent with the manuscript value 0.8328)
+Max difference of predicted-probability formula vs survfit(newdata) = 1.11e-16 (numerical check passed)
+
+--- Bootstrap internal validation (pipeline bootstrap, B=500, seed=20231020) ---
+Bootstrap resampling: n=94 with replacement; each iteration re-runs screening -> LASSO -> fitting in full
+Completed iterations: 489/500; modelling failures: 11 (lt2_genes:11)
+Apparent C-index = 0.8328
+Bootstrap apparent C (a) mean = 0.9181 (SD 0.0445)
+Original-model test C (b) mean = 0.8340 (SD 0.0313)
+Mean optimism = 0.0841 (SD 0.0488, median 0.0874, range -0.2063-0.1825)
+Optimism 95% percentile interval: -0.0220 - 0.1659
+Optimism-corrected C-index = 0.7487
+[Acceptance] optimism non-triviality: 459/489 iterations with optimism>0.005 (93.9%); mean optimism = 0.0841 -> PASS (screening/LASSO were indeed re-run within bootstrap)
+
+--- Calibration (M4, 1 year = 365 days, internal validation) ---
+1-year outcome determinable n=83 (1-year events 17; censored before 365 days excluded 11)
+Apparent calibration (17-gene risk-score model): intercept = 0.201, slope = 0.971 (ideal 0, 1)
+Bootstrap-corrected calibration (274 valid iterations): intercept = -0.551, slope = 0.347
+  (mean optimism: intercept +0.752, slope +0.623)
+1-year O/E = 0.872 (expected events 14.8 vs actual 17, determinable samples)
+Apparent calibration (nomogram multivariable model risk+age+stage, n=92): intercept = 0.372, slope = 0.977
+Calibration-curve data: results/32_calibration_curve.tsv (deciles)
+
+--- Interpretation and evidence ceiling ---
+Optimism quantifies the overfitting of 're-modelling within the same cohort using the full pipeline (including gene screening)' relative to the fixed model;
+it does not measure external generalisation error (no external validation cohort) and cannot be interpreted as a causal effect.
+Calibration rests on 17 events at 1 year, with only 8-9 cases per decile group; estimates carry substantial uncertainty and should be reported as internal consistency only.
+
+--- Reproducibility information ---
+R version 4.6.1 (2026-06-24)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 24.04.3 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] glmnet_5.1      Matrix_1.7-6    survival_3.8-12
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.6.1   tools_4.6.1      Rcpp_1.1.2       codetools_0.2-20
+ [5] splines_4.6.1    grid_4.6.1       iterators_1.0.14 foreach_1.5.2   
+ [9] shape_1.4.6.1    lattice_0.23-1  

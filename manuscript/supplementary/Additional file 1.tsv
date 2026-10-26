@@ -1,0 +1,206 @@
+PMID	Year	Journal	Title	T1a_External_validation_reported	T1b_Internal_split_or_CV_reported	T1c_No_validation_mentioned	T2_Pipeline_rerun_stated	T3_Discrimination_AUC_Cindex_reported	T4_Calibration_reported	T5_Full_model_reported	T6_Sample_size_reported	T7_Multicentre_or_multisource	Max_reported_AUC_or_Cindex	Max_sample_size
+27507904	2017	Gut	Integrated genomic analysis of recurrence-associated small non-coding RNAs in oesophageal cancer.	1	0	0	0	0	0	0	1	0		512
+28556501	2017	Cancer medicine	A three-gene signature from protein-protein interaction network of LOXL2- and actin-related proteins for esophageal squamous cell carcinoma prognosis.	1	0	0	0	0	0	0	1	0		243
+28591712	2017	Oncotarget	An esophageal squamous cell carcinoma classification system that reveals potential targets for therapy.	0	0	1	0	0	0	0	1	0		360
+29333916	2018	Cancer biology &amp; therapy	Cytoplasmic collagen XI&#x3b1;I as a prognostic biomarker in esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+29393486	2018	Molecular medicine reports	A 10&#x2011;microRNA prognosis scoring system in esophageal squamous cell carcinoma constructed using bioinformatic methods.	0	0	1	0	0	0	0	0	0		
+29409459	2018	BMC cancer	A three-lncRNA signature predicts overall survival and disease-free survival in patients with esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	1	0		138
+29240008	2019	Annals of surgery	Genome-wide Discovery of a Novel Gene-expression Signature for the Identification of Lymph Node Metastasis in Esophageal Squamous Cell Carcinoma.	0	1	0	0	1	0	0	1	0	0.87	56
+30006931	2019	International journal of cancer	A comprehensive methylation signature identifies lymph node metastasis in esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+30387125	2019	Journal of cellular physiology	A six-microRNA risk score model predicts prognosis in esophageal squamous cell carcinoma.	1	1	0	0	1	0	0	0	0		
+30421504	2019	Thoracic cancer	"Integrative analysis of differential genes and identification of a ""2-gene score"" associated with survival in esophageal squamous cell carcinoma."	0	0	1	0	1	1	1	0	0		
+31423201	2019	Oncology letters	A five-gene signature to predict the overall survival time of patients with esophageal squamous cell carcinoma.	1	0	0	0	1	0	1	1	0		172
+31815134	2019	BioMed research international	A Novel Clinical Six-Flavoprotein-Gene Signature Predicts Prognosis in Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	0	0	0		
+31882677	2019	Scientific reports	Characterization of a five-microRNA signature as a prognostic biomarker for esophageal squamous cell carcinoma.	0	1	0	0	1	0	0	0	0		
+31350847	2020	Briefings in bioinformatics	HiFreSP: A novel high-frequency sub-pathway mining approach to identify robust prognostic gene signatures.	1	0	0	0	0	0	0	0	0		
+31746108	2020	Journal of cellular and molecular medicine	Four transcription profile-based models identify novel prognostic signatures in oesophageal cancer.	1	0	0	0	0	0	0	0	0		
+31793228	2020	Cancer medicine	Integrated analysis of genomic and transcriptomic profiles identified a prognostic immunohistochemistry panel for esophageal squamous cell cancer.	1	1	0	0	1	0	1	0	0	0.695	
+31978896	2020	Aging	Identification of a nomogram based on long non-coding RNA to improve prognosis prediction of esophageal squamous cell carcinoma.	1	1	0	0	1	0	1	0	0		
+32024523	2020	BMC medical genomics	The cox-filter method identifies respective subtype-specific lncRNA prognostic signatures for two human cancers.	0	0	1	0	0	0	0	0	0		
+32714975	2020	BioMed research international	Identification of Differentially Expressed Genes and miRNAs Associated with Esophageal Squamous Cell Carcinoma by Integrated Analysis of Microarray Data.	0	0	1	0	0	0	0	0	0		
+32810627	2020	Pharmacological research	Integrative stemness characteristics associated with prognosis and the immune microenvironment in esophageal cancer.	1	0	0	0	0	0	0	1	0		182
+33364836	2020	Cancer management and research	Immunoscore Signature Predicts Postoperative Survival and Adjuvant Chemotherapeutic Benefits in Esophageal Squamous Cell Carcinoma.	1	1	0	0	0	0	1	1	0		249
+33381521	2020	Frontiers in molecular biosciences	Identification of the Prognostic Value of Tumor Microenvironment-Related Genes in Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+33708944	2021	Annals of translational medicine	Development and validation of an autophagy-related prognostic signature in esophageal cancer.	1	1	0	0	1	0	1	0	0		
+33718151	2021	Frontiers in oncology	A Prognostic Signature Based on Immunogenomic Profiling Offers Guidance for Esophageal Squamous Cell Cancer Treatment.	0	0	1	0	0	1	1	0	0		
+33748133	2021	Frontiers in cell and developmental biology	Immune-Related Long Non-coding RNA Signature and Clinical Nomogram to Evaluate Survival of Patients Suffering Esophageal Squamous Cell Carcinoma.	1	1	0	0	0	0	1	0	0		
+33859939	2021	Frontiers in oncology	Establishment of a Novel Risk Score System of Immune Genes Associated With Prognosis in Esophageal Carcinoma.	0	0	1	0	0	0	0	0	0		
+33946826	2021	Cancers	Using Genomics Feature Selection Method in Radiomics Pipeline Improves Prognostication Performance in Locally Advanced Esophageal Squamous Cell Carcinoma-A Pilot Study.	0	1	0	0	0	0	1	1	0		28
+33968141	2021	Frontiers in genetics	A Novel Signature for Predicting Prognosis of Smoking-Related Squamous Cell Carcinoma.	0	0	1	0	1	0	1	0	0	0.72	
+33981829	2021	Molecular therapy oncolytics	Systematic profiling of ferroptosis gene signatures predicts prognostic factors in esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0	0.76	
+34054840	2021	Frontiers in immunology	Comprehensive Analysis of PD-L1 Expression, Immune Infiltrates, and m6A RNA Methylation Regulators in Esophageal Squamous Cell Carcinoma.	1	0	0	0	0	0	0	1	0		453
+34234806	2021	Frontiers in genetics	The TP53-Related Signature Predicts Immune Cell Infiltration, Therapeutic Response, and Prognosis in Patients With Esophageal Carcinoma.	0	0	1	0	0	0	1	0	0		
+34257599	2021	Pathology oncology research : POR	UBE2T Contributes to the Prognosis of Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+34291083	2021	Frontiers in molecular biosciences	A Novel Ferroptosis-Related Biomarker Signature to Predict Overall Survival of Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	1	1	0	0		
+34336650	2021	Frontiers in oncology	Autophagy-Related Three-Gene Prognostic Signature for Predicting Survival in Esophageal Squamous Cell Carcinoma.	1	0	0	0	1	1	1	1	0	0.713	119
+34365093	2021	EBioMedicine	Transcriptomics based multi-dimensional characterization and drug screen in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+34404882	2021	Scientific reports	Integrated bioinformatics analysis of differentially expressed genes and immune cell infiltration characteristics in Esophageal Squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+34625514	2021	Journal for immunotherapy of cancer	Increased coexpression of PD-L1 and TIM3/TIGIT is associated with poor overall survival of patients with esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+34659345	2021	Frontiers in genetics	Prognostic Value of Immune-Related Multi-IncRNA Signatures Associated With Tumor Microenvironment in Esophageal Cancer.	0	0	1	0	1	0	0	0	0		
+34712369	2021	Disease markers	Identification of Epithelial-Mesenchymal Transition- (EMT-) Related LncRNA for Prognostic Prediction and Risk Stratification in Esophageal Squamous Cell Carcinoma.	1	0	0	0	1	1	1	1	0		119
+34764976	2021	Frontiers in genetics	Development and Validation of a Ferroptosis-Related Gene Signature and Nomogram for Predicting the Prognosis of Esophageal Squamous Cell Carcinoma.	1	0	0	0	1	1	1	0	0		
+34790797	2021	Annals of translational medicine	Development of immune gene pair-based signature predictive of prognosis and immunotherapy in esophageal cancer.	0	0	1	0	1	0	1	1	0	0.973	78
+34815705	2021	International journal of general medicine	A Novel Autophagy-Related Long Non-Coding RNA Signature to Predict Prognosis and Therapeutic Response in Esophageal Squamous Cell Carcinoma.	0	1	0	0	1	0	1	1	0		179
+34926275	2021	Frontiers in oncology	Development and Validation of a Prognostic Gene Signature Correlated With M2 Macrophage Infiltration in Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	1	0	0	0.672	
+34976055	2021	Journal of oncology	Identification of a Ten-Gene Signature of DNA Damage Response Pathways with Prognostic Value in Esophageal Squamous Cell Carcinoma.	1	0	0	0	0	0	1	0	0		
+35116493	2021	Translational cancer research	Integrated bioinformatics analysis to identify key genes related to the prognosis of esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+35116551	2021	Translational cancer research	A novel immune-related gene signature predicts survival in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0	0.817	
+35201503	2021	Discover oncology	Identification of prognostic biomarkers associated with tumor microenvironment in ceRNA network for esophageal squamous cell carcinoma: a bioinformatics study based on TCGA database.	0	0	1	0	0	0	0	0	0		
+34751872	2022	Annals of surgical oncology	The Novel Tumor Microenvironment-Related Prognostic Gene AIF1 May Influence Immune Infiltrates and is Correlated with TIGIT in Esophageal Cancer.	1	0	0	0	0	0	0	0	0		
+35121801	2022	Scientific reports	Identification and validation of an autophagy-related gene signature for predicting prognosis in patients with esophageal squamous cell carcinoma.	0	1	0	0	1	0	1	1	0		179
+35155234	2022	Frontiers in oncology	Serum Metabolomic Profiling Reveals Biomarkers for Early Detection and Prognosis of Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+35282133	2022	Annals of translational medicine	Development of a prognostic nomogram based on an eight-gene signature for esophageal squamous cell carcinoma by weighted gene co-expression network analysis (WGCNA).	0	0	1	0	1	0	1	0	0	0.961	
+35284129	2022	Journal of gastrointestinal oncology	Estimating the prognosis of esophageal squamous cell carcinoma based on The Cancer Genome Atlas (TCGA) of m6A methylation-associated genes.	0	0	1	0	1	0	0	0	0		
+35299644	2022	Frontiers in bioengineering and biotechnology	A Prognostic Model Based on mRNA Expression Analysis of Esophageal Squamous Cell Carcinoma.	1	1	0	0	1	0	1	1	0	0.75	365
+35309940	2022	Frontiers in cell and developmental biology	Comprehensive Analysis of TRP Channel-Related Genes for Estimating the Immune Microenvironment, Prognosis, and Therapeutic Effect in Patients With Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	0	0	0		
+35365175	2022	BMC medical genomics	GINS4 might be a novel prognostic immune-related biomarker of not only esophageal squamous cell carcinoma and other cancers.	0	0	1	0	1	0	0	1	0		215
+35371305	2022	Journal of Cancer	Identification and analysis of a prognostic ferroptosis and iron-metabolism signature for esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+35371307	2022	Journal of Cancer	Prognostic Values and Underlying Regulatory Network of Cohesin Subunits in Esophageal Carcinoma.	0	0	1	0	1	0	1	0	0		
+35496042	2022	BioMed research international	Upregulation of Centromere Proteins as Potential Biomarkers for Esophageal Squamous Cell Carcinoma Diagnosis and Prognosis.	0	0	1	0	1	0	1	0	0	0.906	
+35497331	2022	Frontiers in bioengineering and biotechnology	Identification and Validation of a Prognostic Immune-Related Gene Signature in Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	0	0	0	0.931	
+35557566	2022	Journal of gastrointestinal oncology	Development and verification of a hypoxia- and immune-associated prognosis signature for esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	1	0		173
+35574315	2022	Frontiers in oncology	METTL3 Is Associated With the Malignancy of Esophageal Squamous Cell Carcinoma and Serves as a Potential Immunotherapy Biomarker.	0	0	1	0	1	0	1	0	0		
+35578166	2022	Cellular &amp; molecular biology letters	Identification and validation of an eight-lncRNA signature that predicts prognosis in patients with esophageal squamous cell carcinoma.	1	0	0	0	1	0	1	0	0		
+35646892	2022	Frontiers in cell and developmental biology	Identification of A Risk Signature Based on Lactic Acid Metabolism-Related LncRNAs in Patients With Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	1	0	0		
+35756681	2022	Frontiers in oncology	Pan-Cancer Integrated Analysis Identification of SASH3, a Potential Biomarker That Inhibits Lung Adenocarcinoma Progression.	0	0	1	0	0	0	1	0	0		
+35795310	2022	BioMed research international	Immune Infiltration Represents Potential Diagnostic and Prognostic Biomarkers for Esophageal Squamous Cell Carcinoma.	1	1	0	0	1	0	1	1	0	0.999	331
+35832188	2022	Frontiers in genetics	Risk Stratification and Validation of Eleven Autophagy-Related lncRNAs for Esophageal Squamous Cell Carcinoma.	0	1	0	0	1	0	1	1	0	0.728	179
+35880180	2022	Frontiers in immunology	Exploring the Potential of Exosome-Related LncRNA Pairs as Predictors for Immune Microenvironment, Survival Outcome, and Microbiotain Landscape in Esophageal Squamous Cell Carcinoma.	1	1	0	0	1	0	0	0	0		
+35903713	2022	Oxidative medicine and cellular longevity	Ferroptosis-Related lncRNA Signature Correlates with the Prognosis, Tumor Microenvironment, and Therapeutic Sensitivity of Esophageal Squamous Cell Carcinoma.	1	0	0	0	0	0	0	0	0		
+35912250	2022	Frontiers in oncology	Comprehensive Analysis of Molecular Clusters and Prognostic Signature Based on m7G-related LncRNAs in Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	1	0	0		
+35993362	2022	JCI insight	Inactivation of Hippo pathway characterizes a poor-prognosis subtype of esophageal cancer.	0	0	1	0	0	0	0	1	0		201
+36071753	2022	Journal of thoracic disease	Development and validation of a prognostic model related to pyroptosis-related genes for esophageal squamous cell carcinoma using bioinformatics analysis.	1	0	0	0	1	1	0	0	0	0.705	
+36072903	2022	Disease markers	Epithelial-Mesenchymal Transition Gene Signature Is Associated with Neoadjuvant Chemoradiotherapy Resistance and Prognosis of Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	1	0	0		
+36077731	2022	Cancers	Integrative Analysis of Angiogenesis-Related Long Non-Coding RNA and Identification of a Six-DEARlncRNA Signature Associated with Prognosis and Therapeutic Response in Esophageal Squamous Cell Carcinoma.	1	1	0	0	1	0	0	0	0		
+36147506	2022	Frontiers in genetics	A novel immune-related radioresistant lncRNAs signature based model for risk stratification and prognosis prediction in esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+36185246	2022	Frontiers in oncology	A stratification system of ferroptosis and iron-metabolism related LncRNAs guides the prediction of the survival of patients with esophageal squamous cell carcinoma.	1	1	0	0	1	0	1	0	0		
+36237263	2022	Translational cancer research	A nomogram and risk classification model predicts prognosis in Chinese esophageal squamous cell carcinoma patients.	1	0	0	0	0	1	1	1	0		312
+36265781	2022	Clinics and research in hepatology and gastroenterology	A more novel and robust gene signature predicts outcome in patients with esophageal squamous cell carcinoma.	1	0	0	0	1	0	0	0	0		
+36359828	2022	Cells	Construction and Evaluation of a Risk Score Model for Lymph Node Metastasis-Associated Circadian Clock Genes in Esophageal Squamous Carcinoma.	1	1	0	0	0	0	0	0	0		
+36568375	2022	Frontiers in genetics	Ferroptosis patterns and tumor microenvironment infiltration characterization in esophageal squamous cell cancer.	0	0	1	0	0	0	0	0	0		
+36685978	2022	Frontiers in genetics	A novel pyroptosis scoring model was associated with the prognosis and immune microenvironment of esophageal squamous cell carcinoma.	0	0	1	0	1	1	1	0	0		
+35789548	2023	Cancer medicine	Establishment of a risk model by integrating hypoxia genes in predicting prognosis of esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+35959623	2023	Combinatorial chemistry &amp; high throughput screening	Identification and Validation of Co-Expressed Immune-Related Gene Signature Affecting the Pattern of Immune Infiltrating in Esophageal Cancer.	0	0	1	0	0	0	0	0	0		
+36699628	2023	World journal of clinical oncology	Identification of a three-gene prognostic signature for radioresistant esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+36733344	2023	Frontiers in genetics	Identification of m6a-related signature genes in esophageal squamous cell carcinoma by machine learning method.	0	0	1	0	0	1	0	0	0		
+36803971	2023	BMC medical genomics	A novel DNA damage repair gene-related prognostic model for evaluating the prognosis and tumor microenvironment infiltration of esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+37025404	2023	Frontiers in endocrinology	Single-cell mapping of N6-methyladenosine in esophageal squamous cell carcinoma and exploration of the risk model for immune infiltration.	0	0	1	0	0	0	0	1	0		174
+37065557	2023	Journal of thoracic disease	A novel pyroptosis-related model for prognostic prediction in esophageal squamous cell carcinoma: a bioinformatics analysis.	0	0	1	0	0	0	0	0	0		
+37071001	2023	Aging	Identification of the pyroptosis-related gene signature and risk score model for esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+37081402	2023	BMC gastroenterology	Novel chemokine related LncRNA signature correlates with the prognosis, immune landscape, and therapeutic sensitivity of esophageal squamous cell cancer.	0	0	1	0	1	1	1	0	0		
+37187751	2023	Frontiers in immunology	Identification of TREM2-positive tumor-associated macrophages in esophageal squamous cell carcinoma: implication for poor prognosis and immunotherapy modulation.	0	0	1	0	0	0	0	1	0		80
+37193148	2023	American journal of translational research	Long non-coding RNA LINC00707, a prognostic marker, regulates cell proliferation, apoptosis, and EMT in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+37225895	2023	Functional &amp; integrative genomics	Construction of a novel pyrotosis-related prognostic model of esophageal square cell carcinoma and determination of the anti-tumor effect of WFDC12.	0	0	1	0	0	0	0	0	0		
+37254126	2023	Journal of experimental &amp; clinical cancer research : CR	Spatial analysis of stromal signatures identifies invasive front carcinoma-associated fibroblasts as suppressors of anti-tumor immune response in esophageal cancer.	0	0	1	0	0	0	0	0	0		
+37306828	2023	Discover oncology	A demonstration based on multi-omics transcriptome sequencing data revealed disulfidptosis heterogeneity within the tumor microenvironment of esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+37313409	2023	Frontiers in immunology	A fibroblast-associated signature predicts prognosis and immunotherapy in esophageal squamous cell cancer.	0	0	1	0	0	0	1	0	0		
+37383713	2023	Frontiers in pharmacology	A tricarboxylic acid cycle-based machine learning model to select effective drug targets for the treatment of esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+37405477	2023	Journal of cancer research and clinical oncology	A risk prognostic model for patients with esophageal squamous cell carcinoma basing on cuproptosis and ferroptosis.	0	0	1	0	0	0	0	0	0		
+37561524	2023	Aging	A novel and robust pyroptosis-related prognostic signature predicts prognosis and response to immunotherapy in esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+37609436	2023	PeerJ	A novel immune-related prognostic signature based on Chemoradiotherapy sensitivity predicts long-term survival in patients with esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0	0.7	
+37634448	2023	International immunopharmacology	Prognostic and immunological role of cancer-associated fibroblasts-derived exosomal protein in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+37653730	2023	Medicine	Expression and prognostic value of AIM1L in esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+37665670	2023	Aging	Identification and validation of a prognostic signature of cuproptosis-related genes for esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+37666951	2023	Scientific reports	Identification of m 5 C-related lncRNAs signature to predict prognosis and therapeutic responses in esophageal squamous cell carcinoma patients.	0	0	1	0	1	0	1	0	0		
+37812189	2023	Aging	Prognostic value and immune landscapes of cuproptosis-related lncRNAs in esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+37812215	2023	Aging	A SARS-CoV-2 related signature that explores the tumor microenvironment and predicts immunotherapy response in esophageal squamous cell cancer.	0	0	1	0	0	0	1	0	0		
+37842637	2023	Frontiers in molecular biosciences	Deciphering Treg cell roles in esophageal squamous cell carcinoma: a comprehensive prognostic and immunotherapeutic analysis.	0	0	1	0	0	0	0	0	0		
+38023824	2023	Pharmacogenomics and personalized medicine	Identification of a Prognostic Gene Signature Based on Lipid Metabolism-Related Genes in Esophageal Squamous Cell Carcinoma.	1	0	0	0	1	0	0	0	0		
+38091397	2023	Science advances	Comprehensive single-cell analysis demonstrates radiotherapy-induced infiltration of macrophages expressing immunosuppressive genes into tumor in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+38098487	2023	Frontiers in immunology	Single-cell transcriptomics reveals heterogeneity in esophageal squamous epithelial cells and constructs models for predicting patient prognosis and immunotherapy.	0	0	1	0	0	0	1	0	0		
+38148838	2023	Frontiers in oncology	Deciphering the Hypoxia-immune interface in esophageal squamous carcinoma: a prognostic network model.	0	0	1	0	1	0	0	0	0		
+38196829	2023	Oncology research	A prognosis model for predicting immunotherapy response of esophageal cancer based on oxidative stress-related signatures.	0	0	1	0	1	0	1	0	0		
+38206423	2024	Biochemical genetics	Development of a TLR-Based Model That Can Predict Prognosis, Tumor Microenvironment, and Drug Response for Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+38211899	2024	Gene	Cuproptosis/OXPHOS tendency prediction of prognosis and immune microenvironment of esophageal squamous cell carcinoma: Bioinformatics analysis and experimental validation.	0	0	1	0	0	0	0	0	0		
+38305770	2024	Aging	Risk model based on genes regulating the response of tumor cells to T-cell-mediated killing in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+38354632	2024	Translational oncology	Tenascin-C as a potential biomarker and therapeutic target for esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+38515748	2024	Frontiers in immunology	Innovative prognostic modeling in ESCC: leveraging scRNA-seq and bulk-RNA for dendritic cell heterogeneity analysis.	0	0	1	0	0	0	1	1	0		298
+38559590	2024	International journal of general medicine	Prognostic Risk Models Using Epithelial Cells Identify &#x3b2;-Sitosterol as a Potential Therapeutic Target Against Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	1	0		3407
+38582059	2024	Translational oncology	Comprehensive single-cell transcriptomic profiling reveals molecular subtypes and prognostic biomarkers with implications for targeted therapy in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+38589454	2024	Scientific reports	Identification of m6A/m5C-related lncRNA signature for prediction of prognosis and immunotherapy efficacy in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+38659420	2024	Oncology letters	Bioinformatics analysis and experimental verification of NLRX1 as a prognostic factor for esophageal squamous cell carcinoma.	0	0	1	0	1	1	1	0	0		
+38700744	2024	Human cell	VBP1 promotes tumor proliferation as a part of the hypoxia-related signature in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+38719775	2024	Journal of microbiology and biotechnology	Construction of a Novel Mitochondria-Associated Gene Model for Assessing ESCC Immune Microenvironment and Predicting Survival.	0	0	1	0	0	0	0	0	0		
+38816411	2024	Scientific reports	A novel fatty acid metabolism-related signature identifies MUC4 as a novel therapy target for esophageal squamous cell carcinoma.	1	0	0	0	1	0	1	0	0		
+38818465	2024	International journal of medical sciences	Bioinformatics Analysis Reveals a Novel Prognostic Model for Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	1	0	0		
+38843392	2024	Aging	A novel mitochondrial metabolism-related gene signature for predicting the prognosis of oesophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+38877096	2024	Scientific reports	Screening of co-expressed genes in hypopharyngeal carcinoma with esophageal carcinoma based on RNA sequencing and Clinical Research.	0	0	1	0	1	0	1	0	0	0.944	
+38903709	2024	Frontiers in oncology	Immune cell related signature predicts prognosis in esophageal squamous cell carcinoma based on single-cell and bulk-RNA sequencing.	0	0	1	0	0	0	0	0	0		
+38975629	2024	Expert review of anticancer therapy	Screening of genes related to programmed cell death in esophageal squamous cell carcinoma and construction of prognostic model based on transcriptome analysis.	0	0	1	0	0	0	0	0	0		
+38983159	2024	Journal of thoracic disease	A novel amino acid metabolism-related gene signature to predict the overall survival of esophageal squamous cell carcinoma patients.	0	0	1	0	0	1	1	0	0		
+39154531	2024	International immunopharmacology	T cell-related circRNA pairs to predict prognosis of patients with esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+39256753	2024	Biology direct	Integrative genomics unveils basement membrane-related diagnostic markers and therapeutic targets in esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+39281690	2024	Clinical Medicine Insights. Oncology	A Novel Porphyromonas gingivalis Infection-Related Inflammatory Response-Related Genes Signature Predicts the Prognosis of Esophageal Squamous Cell Carcinoma.	1	0	0	0	1	0	1	0	0		
+39308671	2024	Journal of Cancer	Integrative Analysis and Validation of a Cancer-associated Fibroblasts Senescence-related Signature for Risk Stratification and Therapeutic Prediction in Esophageal Squamous Cell Carcinoma.	1	0	0	0	0	0	0	0	0		
+39333432	2024	Discover oncology	Deciphering the role of sphingolipid metabolism in the immune microenvironment and prognosis of esophageal cancer via single-cell sequencing and bulk data analysis.	0	0	1	0	1	0	1	0	0		
+39344350	2024	Journal of microbiology and biotechnology	Impact of Mitophagy-Related Genes on the Diagnosis and Development of Esophageal Squamous Cell Carcinoma via Single-Cell RNA-seq Analysis and Machine Learning Algorithms.	1	0	0	0	0	0	0	0	0		
+39444152	2024	Annals of medicine	Establishment and validation of the prognostic risk model based on the anoikis-related genes in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+39525030	2024	Translational cancer research	The role of SEC14L4 in esophageal squamous cell cancer: insights into clinical relevance and molecular pathways.	0	0	1	0	1	0	1	0	0		
+39535375	2024	Journal of cellular and molecular medicine	Integrated machine learning developed a prognosis-related gene signature to predict prognosis in oesophageal squamous cell carcinoma.	1	0	0	0	1	0	0	1	0		260
+39604874	2024	BMC gastroenterology	A novel disulfidptosis-related LncRNA prognostic risk model: predicts the prognosis, tumor microenvironment and drug sensitivity in esophageal squamous cell carcinoma.	0	0	1	0	0	0	1	0	0		
+39633985	2024	Frontiers in molecular biosciences	Identification of key genes to predict response to chemoradiotherapy and prognosis in esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+39659928	2024	American journal of cancer research	RBM15 increase tumor-infiltrating CD4+ T cell in ESCC via modulating of PLOD3.	0	0	1	0	1	0	0	0	0		
+39742278	2024	Frontiers in immunology	Leveraging single-cell and multi-omics approaches to identify MTOR-centered deubiquitination signatures in esophageal cancer therapy.	0	0	1	0	1	0	0	0	0		
+38572681	2025	Environmental toxicology	RETRACTED: Single-cell transcriptome sequencing analysis reveals intra-tumor heterogeneity in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+39833504	2025	Discover oncology	Revolutionizing ESCC prognosis: the efficiency of tumor-infiltrating immune cells (TIIC) signature score.	0	0	1	0	1	0	0	0	0		
+39840762	2025	Cancer medicine	Predicting Outcomes in Esophageal Squamous Cell Carcinoma Using scRNA-Seq and Bulk RNA-Seq: A Model Development and Validation Study.	1	0	0	0	0	0	0	0	0		
+39895826	2025	International journal of general medicine	Crotonylation-Related Prognostic Model of Esophageal Squamous Cell Carcinoma Based on Transcriptome Analysis and Single-Cell Sequencing Analysis.	0	0	1	0	0	0	1	0	0		
+40025479	2025	Cancer cell international	Association between cancer-associated fibroblasts and prognosis of neoadjuvant chemoradiotherapy in esophageal squamous cell carcinoma: a bioinformatics analysis based on single-cell RNA sequencing.	0	0	1	0	0	0	0	0	0		
+40066443	2025	Frontiers in immunology	Unveiling SSR4: a promising biomarker in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	1	0		110
+40115255	2025	Frontiers in pharmacology	Targeting glycolysis in esophageal squamous cell carcinoma: single-cell and multi-omics insights for risk stratification and personalized therapy.	0	0	1	0	0	0	0	0	0		
+40119618	2025	Journal of cellular and molecular medicine	Machine Learning-Based Glycolipid Metabolism Gene Signature Predicts Prognosis and Immune Landscape in Oesophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+40165896	2025	Frontiers in oncology	Multi-cohort validation based on a novel prognostic signature of anoikis for predicting prognosis and immunotherapy response of esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+40208395	2025	Journal of gastrointestinal cancer	Regulatory T Cell Infiltration-Driven Single-Cell Transcriptomic Analysis Identifies SAP18 as a Prognostic Marker for Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+40281492	2025	BMC cancer	Multi-omics analysis unveils a four-gene prognostic signature in esophageal squamous carcinoma and the therapeutic potential of PKP1.	0	0	1	0	0	0	0	0	0		
+40303412	2025	Frontiers in immunology	Identification of disulfidptosis in esophageal squamous cell carcinoma based on single-cell and bulk RNA-seq data to predict prognosis and treatment response.	1	0	0	0	0	0	0	0	0		
+40331088	2025	Toxicology research	Radiation-induced esophagitis and lung injury during esophageal squamous cell cancer therapy is correlated to tumor gene expression phenotype.	0	0	1	0	1	0	0	1	0		37
+40375794	2025	Journal of immunotherapy (Hagerstown, Md. : 1997)	Harnessing Calmodulin-Related Genes to Build a Prognostic Model in Esophageal Squamous Cell Carcinoma for a Comprehensive Analysis of Single-Cell Immune Characteristics and Drug Efficacy.	0	0	1	0	0	0	0	0	0		
+40400969	2025	Journal of thoracic disease	Construction of a multigenic diagnostic, prognostic, and immune infiltration model with methylation-associated regulators in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	1	0	0.911	82
+40406147	2025	Frontiers in immunology	Single-cell RNA sequencing reveals adrb1 as a sympathetic nerve-regulated immune checkpoint driving T cell exhaustion and impacting immunotherapy in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+40496864	2025	Frontiers in immunology	Malignant epithelial cell marker-driven risk signature enables precise stratification in esophageal cancer.	0	0	1	0	0	0	0	0	0		
+40504362	2025	Cell biochemistry and biophysics	A Risk Prognostic Signature Basing on Cuproptosis-related Ferroptosis and Immune Genes for Esophageal Squamous Cell Carcinoma Patients.	1	0	0	0	0	0	1	0	0		
+40529736	2025	Journal of thoracic disease	Transcriptome analysis and artificial intelligence for predicting lymph node metastasis of esophageal squamous cell carcinoma.	1	1	0	0	1	0	1	1	0	0.78	209
+40589861	2025	OncoTargets and therapy	Multi&#x2011;cohort Validation Based on Disulfidptosis-Related lncRNAs for Predicting Prognosis and Immunotherapy Response of Esophageal Squamous Cell Carcinoma.	1	1	0	0	1	0	0	1	0		179
+40628169	2025	Computers in biology and medicine	PANoptosis-driven molecular stratification in esophageal squamous cell carcinoma: A multi-omics prognostic model and FGFR-Targeted therapeutic validation.	0	0	1	0	1	0	1	0	0		
+40792145	2025	Translational cancer research	A nine-gene signature with potential targets for predicting the prognosis of patients with esophageal cancer.	0	1	0	0	1	0	1	1	0		83
+40816225	2025	Translational oncology	Exosomal gene signature in esophageal carcinoma: Insights from single-cell and bulk RNA sequencing.	0	0	1	0	0	0	0	0	0		
+40821701	2025	Frontiers in molecular biosciences	A comprehensive analysis of the tryptophan metabolism-related gene signature to predict the prognosis of esophageal squamous cell carcinoma based on multi-omics.	0	0	1	0	0	0	1	0	0		
+40883817	2025	Human genomics	Integrative single-cell and bulk transcriptomic analysis reveals the landscape of T cell mitotic catastrophe associated genes in esophageal squamous cell carcinoma.	0	0	1	0	1	0	0	0	0		
+40918133	2025	Frontiers in immunology	Comprehensive analysis based on the ubiquitination- and deubiquitylation-related genes reveals the function of NEURL3 in esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+41094576	2025	Biology direct	RGS16-driven cancer-associated fibroblasts promote esophageal squamous cell carcinoma progression via the MDK-SDC1 axis-mediated intercellular crosstalk.	0	0	1	0	0	0	0	0	0		
+41127022	2025	Frontiers in oncology	Unraveling the role of coagulation-related genes in esophageal squamous cell carcinoma: development of a prognostic model and exploration of potential clinical significance.	0	0	1	0	1	0	0	0	0		
+41162922	2025	BMC cancer	Integrated bioinformatics analysis of differences between EAC and ESCC.	0	0	1	0	0	0	0	0	0		
+41201701	2025	Discover oncology	Mechanisms of synergistic regulation of the tumor microenvironment by fibroblasts and keratinocytes in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+41208974	2025	Frontiers in immunology	Development and validation of a novel signature to predict the survival and affect the immune microenvironment of esophageal squamous cell carcinoma: epigenetic-related genes.	1	0	0	0	1	0	0	0	0		
+41313509	2025	Discover oncology	Multi-omics approaches including single-cell analysis and machine learning were used to identify the roles of telomere-related genes in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+41347075	2025	Frontiers in oncology	Construction and validation of a transmembrane 4 superfamily-related genes prognostic model for esophageal squamous cell carcinoma.	0	0	1	0	1	0	1	0	0		
+41367933	2025	BioMed research international	New Gene Signature-Based Prognostic Model for Patients With VEGF-Overexpressing Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+41613113	2025	Frontiers in immunology	Neoadjuvant therapy-associated malignant phenotype score predicts prognosis and highlights the roles of MIF signaling and DUXAP8 in ESCC.	0	0	1	0	0	1	1	0	0		
+41526165	2026	Journal for immunotherapy of cancer	Serum cytokines predict response and survival in esophageal squamous cell carcinoma receiving chemoradiotherapy combined with anti-PD-1 antibody: analyses of two phase II clinical trials.	1	0	0	0	1	0	1	1	0	0.77	61
+41582588	2026	Current medicinal chemistry	Prognostic and Immune Infiltration Analysis in ESCC Using a Ferroptosis-EMT Biomarker Signature.	0	0	1	0	0	0	1	0	0		
+41681864	2026	Cancers	Identification and Validation of an Autophagy-Related Gene Signature for Prognostic Prediction and Immunotherapy Response in Esophageal Squamous Cell Carcinoma.	0	0	1	0	1	0	0	1	0		179
+41703614	2026	Hereditas	Development and validation of a succinylation-related prognostic model for esophageal squamous cell carcinoma based on multi-omics bioinformatics analysis.	1	0	0	0	0	0	1	0	0		
+41714427	2026	Discover oncology	Integrative analysis of polyamine-associated genes reveals a prognostic and immunological signature in esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+41731722	2026	Cancer medicine	Identification and Validation of cGAS-STING Pathway-Associated Predictive and Therapeutic Models for Esophageal Squamous Cell Cancer Patients via Artificial Intelligence and Multi-Omics.	0	0	1	0	0	0	0	0	0		
+41766897	2026	Frontiers in immunology	Construction of circadian clock signature for tumor microenvironment in predicting survival of esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+41924732	2026	Frontiers in medicine	Construction of a novel risk model for esophageal squamous cell carcinoma associated with purinergic signaling pathways and chemoradiotherapy sensitivity genes.	0	0	1	0	0	0	0	0	0		
+41940976	2026	Molecular genetics and genomics : MGG	Exploratory identification of lycorine as a potential inhibitor of the ACP2/YME1L1 prognostic axis in esophageal squamous cell carcinoma: a multi-omics and computational hypothesis.	0	0	1	0	0	0	0	0	0		
+41969509	2026	Translational cancer research	Prognostic alternative splicing signatures in esophageal cancer reveal SF3A3 as a key oncogenic splicing factor.	0	0	1	0	1	0	1	0	0		
+41998494	2026	Biological procedures online	Single-Cell RNA Sequencing Identifies a Distinct Epithelial Subpopulation Driving Resistance to Neoadjuvant Chemoimmunotherapy in Esophageal Squamous Cell Carcinoma.	0	0	1	0	0	0	0	0	0		
+42110337	2026	Biochemistry and biophysics reports	The FOXM1-SESN2 axis maintains redox homeostasis and protects esophageal squamous carcinoma cells from oxidative stress.	0	0	1	0	0	0	0	0	0		
+42120988	2026	BMC gastroenterology	Establishment of prognostic prediction model based on lipid metabolism related genes in esophageal squamous cell carcinoma by machine learning algorithms.	0	0	1	0	1	0	0	0	0	0.708	
+42287557	2026	Functional &amp; integrative genomics	A migration/invasion-related prognostic signature identifies and functionally validates SLC25A5 as a hub associated with spliceosome programs and invasive phenotypes in esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+42292425	2026	Frontiers in immunology	Development and validation of an m6A and autophagy related lncRNAs signature for predicting survival and modulating the immune microenvironment in esophageal squamous cell carcinoma.	1	0	0	0	1	0	1	0	0		
+42302480	2026	Translational oncology	The tumor-microenvironment-associated prognostic gene TIGIT promotes malignant phenotypes in esophageal carcinoma.	0	0	1	0	0	0	0	0	0		
+42305451	2026	Translational cancer research	Prognostic value and potential upstream regulator of Schwann cells in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+42337781	2026	Journal of cardiothoracic surgery	Single-cell transcriptomics unveils pyroptosis-related immune microenvironment dynamics and prognostic modeling in esophageal squamous cell carcinoma.	1	0	0	0	0	0	1	0	0		
+42351867	2026	Bioengineering (Basel, Switzerland)	Artificial Intelligence-Driven Construction of Predictive and Druggable Frameworks to an In Silico Bioengineering Evidence Support for Therapy of Esophageal Squamous Cell Carcinoma Patients: Insights from a Toll-like Receptor Signal with Th17 and T H	0	0	1	0	0	0	0	0	0		
+42364031	2026	Molecular biology reports	Rho GTPase-related prognostic signature for esophageal squamous cell carcinoma identifies CTTN as a candidate adverse prognostic marker.	0	0	1	0	0	0	1	0	0		
+42498557	2026	Arab journal of gastroenterology : the official publication of the Pan-Arab Association of Gastroenterology	Molecular subtyping and therapeutic drug prediction in esophageal squamous cell carcinoma based on manganese-metabolism-related genes.	1	0	0	0	0	0	0	0	0		
+42539530	2026	Frontiers in oncology	Single-cell-derived ferroptosis signature predicts prognosis and therapy response in esophageal squamous cell carcinoma.	1	0	0	0	0	0	0	0	0		
+42605118	2026	Molecular genetics &amp; genomic medicine	Y Chromosome Haplogroups and Susceptibility to Esophageal Squamous Cell Carcinoma: An Exploratory Association and Diagnostic Modeling Study.	1	0	0	0	1	1	1	0	0	0.883	
+42703410	2026	Journal of gastrointestinal oncology	Prognostic significance of DNA damage response-related markers in esophageal squamous cell carcinoma using machine learning approaches.	0	1	0	0	1	0	1	0	0	0.741	
+42724740	2026	Journal of thoracic disease	Single-cell and machine learning identify a trihydroxybutyrylation-related prognostic signature in esophageal cancer.	0	0	1	0	0	0	0	0	0		
+42740929	2026	Frontiers in cell and developmental biology	Integrative single-cell and genomic analysis reveals NMB as a driver of metastatic adaptation in esophageal squamous cell carcinoma via metabolic rewiring and immune evasion.	0	0	1	0	0	0	0	0	0		
+42754824	2026	The Journal of international medical research	Identification of a necroptosis-related lncRNA prognostic signature and the hub RBP HNRNPK in esophageal squamous cell carcinoma.	0	0	1	0	0	0	0	0	0		
+42891659	2026	Epigenetics	Diverse patterns of transcriptional regulation and epigenetic reprogramming within PMDs contribute to ESCC progression by regulating EMT and immunosuppression.	0	0	1	0	0	0	0	0	0		

@@ -1,0 +1,64 @@
+===== 33_control_split.R 汇总 =====
+运行时间: 2026-10-23 22:28:19
+
+--- 设计与协议 ---
+队列: TCGA-ESCC n=94, 事件=31（与脚本 14 一致）
+协议: set.seed(20231021), 100 次 7:3 拆分, floor(0.7*94)=65 训练 / 29 测试（复刻脚本 14）
+候选池: 48 基因（prognostic_genes.tsv, 脚本 14 同）; 固定基因集: 17 基因（lasso_model.rds 全样本 LASSO）
+C-index: 脚本 14/15 手动 Harrell's C（与已发表 0.556/0.850 同标尺）
+
+--- 保真度校验（Branch A vs results/split_validation.tsv） ---
+Branch A 完成 98 次（参考 98）; n_genes 完全一致: TRUE; c_test 最大绝对差 = 4.996e-16
+
+--- 三分支测试集 C-index ---
+A 全重跑（同拆分, 复刻脚本 14）: 完成 98/100 | 中位 = 0.5558 (IQR 0.4902-0.6058) | 均值 = 0.5462 (SD 0.0893) | 范围 0.3333-0.7667 | >0.5: 71.4% | >0.7: 3.1%
+B 固定基因集+系数训练集重估（本对照）: 完成 100/100 | 中位 = 0.6967 (IQR 0.6423-0.7503) | 均值 = 0.6937 (SD 0.0794) | 范围 0.5160-0.8590 | >0.5: 100.0% | >0.7: 48.0%
+C 全固定（同拆分锚点）: 完成 100/100 | 中位 = 0.8276 (IQR 0.7867-0.8757) | 均值 = 0.8267 (SD 0.0562) | 范围 0.6954-0.9380 | >0.5: 100.0% | >0.7: 96.0%
+参考: 脚本 15 全固定（已发表 0.850, 不同拆分）: 完成 100/100 | 中位 = 0.8497 (IQR 0.8165-0.8753) | 均值 = 0.8438 (SD 0.0514) | 范围 0.6897-0.9531 | >0.5: 100.0% | >0.7: 99.0%
+
+--- 分解解读（中位数） ---
+同拆分三向分解: A=0.5558 -> B=0.6967 -> C=0.8276
+C - B = 0.1309 ≈ 系数泄漏 + 训练样本量效应（94 vs 65 的估计精度差异）
+B - A = 0.1409 ≈ 纯基因集选择泄漏（基因集用全部 94 样本、含 29 个测试样本选定）
+已发表口径分解: 0.850 - B = 0.1530 ≈ 系数泄漏+样本量效应; B - 0.556 = 0.1409 ≈ 基因集泄漏
+
+--- 设计披露 ---
+1) 脚本 15（0.850）与脚本 14（0.556）虽同 seed 20231021, 但抽样方式不同（直接抽 28 个测试集 vs 抽 65 个训练集）,
+   RNG 流不同 -> 实际拆分不同; 故 0.850 与 0.556 之差含拆分间随机波动。Branch C 给出同拆分锚点。
+2) 任务书/审计报告中"66 个训练样本"为约数; 脚本 14 实际协议为 floor(0.7*94)=65 训练 / 29 测试。
+3) Branch B 的 Cox 为 17 基因 / 65 样本 / ~21 事件（EPV≈1.2）, 系数估计高度不稳定是设计意图——
+   这正是被量化的"系数泄漏+样本量效应"本身, 不是缺陷。
+
+--- 证据上限 ---
+内部重抽样对照: 仅分离同一队列内的泄漏成分, 不构成外部泛化证据, 不解释为因果效应。
+
+--- 复现信息 ---
+R version 4.6.1 (2026-06-24)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 24.04.3 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] glmnet_5.1      Matrix_1.7-6    survival_3.8-12
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.6.1   tools_4.6.1      Rcpp_1.1.2       codetools_0.2-20
+ [5] splines_4.6.1    grid_4.6.1       iterators_1.0.14 foreach_1.5.2   
+ [9] shape_1.4.6.1    lattice_0.23-1  

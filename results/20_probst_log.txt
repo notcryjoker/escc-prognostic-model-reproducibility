@@ -1,0 +1,18 @@
+纳入文献 205 篇
+
+[1] 映射 PMID -> PMCID ...
+   已映射 1/205
+   已映射 2/205
+   已映射 3/205
+PMC 可获取: 3 篇
+
+[2] 下载 PMC 全文 ...
+   已下载 0/3
+全文获取成功: 0 篇
+
+[3] PROBAST 条目评估 ...
+Traceback (most recent call last):
+  File "/workspace/escc_bioinformatics/scripts/20_probst_fulltext.py", line 116, in <module>
+    abst = (r["title"] + " " + r["abstract"]).lower()
+                               ~^^^^^^^^^^^^
+KeyError: 'abstract'

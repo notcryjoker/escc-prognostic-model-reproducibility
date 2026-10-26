@@ -1,0 +1,16 @@
+使用 BioMart 探针注释: /workspace/escc_bioinformatics/data/geo/platform_anno/GPL18109_probe2gene_biomart.tsv 
+平台注释条目: 32722 
+有效符号条目: 32722 | 唯一探针: 29503 
+解析系列矩阵: /workspace/escc_bioinformatics/data/geo/GSE53624_series_matrix.txt.gz 
+样本数: 238 | 数据行: 71584 
+Warning message:
+In .Internal(lapply(X, FUN)) :
+  closing unused connection 3 (/workspace/escc_bioinformatics/data/geo/GSE53624_series_matrix.txt.gz)
+表达矩阵: 71584 238 
+标题示例: "cancer tissue from patient 224" "normal tissue from patient 224" "cancer tissue from patient 225" "normal tissue from patient 225" 
+肿瘤样本: 119 | 正常样本: 119 
+患者编号示例: ec224 ec224 ec225 ec225 
+匹配探针数: 0 / 71584 
+Error in `rownames<-`(`*tmp*`, value = character(0)) : 
+  attempt to set 'rownames' on an object with no dimensions
+Execution halted

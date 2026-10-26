@@ -1,0 +1,30 @@
+===== Supplementary analysis summary =====
+
+[1] Correlation of the risk score with immune-checkpoint genes (Spearman)
+     gene    rho        P   P.adj
+   LGALS9  0.353 0.000516 0.00727
+    TIGIT  0.335 0.001010 0.00727
+     IDO1  0.324 0.001500 0.00727
+   HAVCR2  0.322 0.001610 0.00727
+    PDCD1  0.256 0.013000 0.03910
+     LAG3  0.222 0.031500 0.08090
+     BTLA  0.202 0.050800 0.11400
+    CTLA4  0.187 0.070700 0.13100
+     ICOS  0.186 0.073000 0.13100
+  TNFRSF9  0.130 0.210000 0.31500
+   TNFSF4  0.109 0.297000 0.41100
+     CD40  0.098 0.345000 0.44300
+    CD274  0.087 0.405000 0.48600
+    CD160  0.072 0.487000 0.54800
+    VTCN1  0.050 0.634000 0.67100
+ SIGLEC15 -0.035 0.740000 0.74000
+ TNFRSF18 -0.132 0.203000 0.31500
+    CD276 -0.273 0.007850 0.02830
+
+[2] Bootstrap internal validation (B = 500 )
+Apparent C-index = 0.8328; mean optimism = -0.0000; optimism-corrected C-index = 0.8328
+
+[3] Risk score and clinical features
+           I     II    III    IV
+n      7.000 54.000 27.000 4.000
+median 0.016 -0.268  0.276 0.055

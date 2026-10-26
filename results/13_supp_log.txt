@@ -1,0 +1,50 @@
+样本对齐: 94 例
+可用免疫检查点基因: 18 个
+Warning messages:
+1: In cor.test.default(v, rs$risk_score, method = "spearman") :
+  cannot compute exact p-value with ties
+2: In cor.test.default(v, rs$risk_score, method = "spearman") :
+  cannot compute exact p-value with ties
+3: In cor.test.default(v, rs$risk_score, method = "spearman") :
+  cannot compute exact p-value with ties
+
+=== 风险评分 vs 免疫检查点基因 (Spearman) ===
+     gene    rho        P   P.adj
+   LGALS9  0.353 0.000516 0.00727
+    TIGIT  0.335 0.001010 0.00727
+     IDO1  0.324 0.001500 0.00727
+   HAVCR2  0.322 0.001610 0.00727
+    PDCD1  0.256 0.013000 0.03910
+     LAG3  0.222 0.031500 0.08090
+     BTLA  0.202 0.050800 0.11400
+    CTLA4  0.187 0.070700 0.13100
+     ICOS  0.186 0.073000 0.13100
+  TNFRSF9  0.130 0.210000 0.31500
+   TNFSF4  0.109 0.297000 0.41100
+     CD40  0.098 0.345000 0.44300
+    CD274  0.087 0.405000 0.48600
+    CD160  0.072 0.487000 0.54800
+    VTCN1  0.050 0.634000 0.67100
+ SIGLEC15 -0.035 0.740000 0.74000
+ TNFRSF18 -0.132 0.203000 0.31500
+    CD276 -0.273 0.007850 0.02830
+`geom_smooth()` using formula = 'y ~ x'
+
+Bootstrap 验证样本: 94  事件: 31 
+There were 50 or more warnings (use warnings() to see the first 50)
+表观 C-index = 0.8328; 平均乐观度 = -0.0000; 校正后 C-index = 0.8328
+
+=== 风险评分与临床特征的关系 ===
+按分期:
+           I     II    III    IV
+n      7.000 54.000 27.000 4.000
+median 0.016 -0.268  0.276 0.055
+Kruskal-Wallis (分期): chi2 = 3.22  P = 0.359 
+
+按生存状态:
+            0     1
+n      63.000 31.00
+median -0.336  0.62
+Wilcoxon (死亡 vs 存活): P = 8.07e-06 
+
+补充分析完成 -> supplementary_summary.txt

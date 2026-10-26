@@ -1,0 +1,6 @@
+===== TCGA cohort internal validation =====
+n = 94, events = 31
+KM log-rank P = 0
+Time-dependent AUC: 1-year = 0.845, 3-year = 0.886, 5-year = 1
+Univariable Cox (risk score): HR = 4.712 (2.938-7.557), P = 0
+Multivariable Cox (risk score + age + stage): HR = 4.606 (2.8-7.576), P = 0

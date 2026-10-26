@@ -1,0 +1,25 @@
+===== ESCC 预后基因单因素 Cox 筛选 =====
+队列: TCGA-ESCC (n=95, 事件=0)
+候选池: 共识 DEG 719 个
+单因素 Cox P<0.05: 48 个
+单因素 Cox FDR<0.05: 0 个
+入选预后基因 (P<0.05): 48 个
+  风险基因 HR>1: 9
+  保护基因 HR<1: 39
+
+Top 15 预后基因（按 P 排序）:
+  P3H4         HR=0.55 (0.38-0.79)  P=1.31e-03  FDR=0.677  protective
+  DSG2         HR=0.66 (0.51-0.86)  P=1.90e-03  FDR=0.677  protective
+  PUS7         HR=0.55 (0.37-0.82)  P=3.70e-03  FDR=0.711  protective
+  CHEK1        HR=0.54 (0.35-0.83)  P=5.29e-03  FDR=0.711  protective
+  CDCA2        HR=0.62 (0.43-0.88)  P=7.00e-03  FDR=0.711  protective
+  CH25H        HR=1.31 (1.07-1.60)  P=8.27e-03  FDR=0.711  risk
+  RHOU         HR=1.58 (1.12-2.23)  P=9.75e-03  FDR=0.711  risk
+  GGH          HR=0.49 (0.28-0.85)  P=1.18e-02  FDR=0.711  protective
+  HMGA2        HR=0.70 (0.53-0.93)  P=1.31e-02  FDR=0.711  protective
+  LMNB2        HR=0.59 (0.39-0.90)  P=1.42e-02  FDR=0.711  protective
+  BRIX1        HR=0.53 (0.32-0.88)  P=1.49e-02  FDR=0.711  protective
+  TNFSF10      HR=1.43 (1.07-1.92)  P=1.58e-02  FDR=0.711  risk
+  FNDC4        HR=0.65 (0.45-0.94)  P=2.11e-02  FDR=0.711  protective
+  BEX4         HR=1.38 (1.05-1.81)  P=2.15e-02  FDR=0.711  risk
+  DSCC1        HR=0.62 (0.40-0.94)  P=2.35e-02  FDR=0.711  protective

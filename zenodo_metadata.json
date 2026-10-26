@@ -1,0 +1,38 @@
+{
+  "title": "Apparent versus generalizable performance of an ESCC transcriptomic prognostic model: analysis code and results",
+  "upload_type": "software",
+  "version": "1.0",
+  "publication_date": "2026-10-25",
+  "creators": [
+    {
+      "name": "Xu, Yang",
+      "affiliation": "Department of Thoracic Surgery, The First People's Hospital of Yinchuan (Second Clinical Medical School, Ningxia Medical University), Yinchuan, Ningxia, China",
+      "orcid": "0009-0000-9523-9900"
+    },
+    {
+      "name": "Wang, Yongqi",
+      "affiliation": "Department of Thoracic Surgery, The First People's Hospital of Yinchuan (Second Clinical Medical School, Ningxia Medical University), Yinchuan, Ningxia, China",
+      "orcid": "0009-0000-3676-7711"
+    }
+  ],
+  "description": "Complete reproducibility package for the study 'Apparent versus generalizable performance of an ESCC transcriptomic prognostic model: quantifying selection leakage and overfitting, with a TRIPOD-informed audit and PROBAST assessment of 205 studies' (submitted to Journal of Translational Medicine). Contains: (1) all analysis scripts (numbered 01-35 in execution order); (2) all intermediate result files (74 files, including nested cross-validation, pipeline bootstrap with B=500, and the 100-split control decomposition); (3) the complete literature-audit dataset of 205 published ESCC prognostic-model studies (PubMed, 2015-2026) with TRIPOD item coding, an independent second rule set for agreement estimation (mean Cohen's kappa = 0.802), and PROBAST assessments; (4) MSigDB gene-set subsets (KEGG, GO BP, Hallmark). Raw TCGA-ESCA and GEO expression data are public and not included; download instructions are in the README. Code is MIT-licensed; derived data remain subject to the original TCGA/GEO terms.",
+  "keywords": [
+    "esophageal squamous cell carcinoma",
+    "prognostic model",
+    "overfitting",
+    "selection leakage",
+    "nested cross-validation",
+    "bootstrap",
+    "TRIPOD",
+    "PROBAST",
+    "reproducibility",
+    "reporting quality audit"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "notes": "Random seeds are fixed inside each script. See README.md for the full reproduction protocol. The failed GSE53624 external-validation attempt (platform annotation without gene symbols) is documented in the repository and in the manuscript Limitations.",
+  "doi": "10.5281/zenodo.23643162",
+  "record_url": "https://zenodo.org/records/23643162",
+  "github": "https://github.com/notcryjoker/escc-prognostic-model-reproducibility",
+  "status": "published"
+}

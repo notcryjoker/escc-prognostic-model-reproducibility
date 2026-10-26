@@ -1,0 +1,27 @@
+===== LASSO-Cox 预后模型构建 =====
+输入基因: 48 个（单因素 Cox P<0.05）
+建模队列: TCGA-ESCC, n=94, 事件=31
+lambda.min: 0.0373
+lambda.1se: 0.1138
+入选模型基因: 17 个 -> P3H4, CDCA2, CH25H, RHOU, GGH, TNFSF10, FNDC4, BEX4, RAB37, NCF2, BRCA2, CKB, SHROOM3, MAGEA6, GINS4, C9orf152, GNGT1
+
+基因系数:
+  P3H4       -0.1173
+  CDCA2      -0.1325
+  CH25H      0.0625
+  RHOU       0.2204
+  GGH        -0.0426
+  TNFSF10    0.2372
+  FNDC4      -0.3131
+  BEX4       0.2900
+  RAB37      -0.0146
+  NCF2       0.0550
+  BRCA2      -0.0281
+  CKB        -0.0550
+  SHROOM3    -0.2499
+  MAGEA6     -0.0383
+  GINS4      -0.0390
+  C9orf152   0.2215
+  GNGT1      -0.3089
+
+风险评分中位数: -0.067

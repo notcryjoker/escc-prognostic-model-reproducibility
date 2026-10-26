@@ -1,0 +1,8 @@
+item,R1_positive,R2_positive,observed_agreement,kappa
+external_validation,55,27,0.8439,0.526
+internal_validation,22,7,0.9171,0.3818
+rerun_pipeline,0,0,1.0,1.0
+calibration,15,14,0.9951,0.9629
+full_model,85,79,0.9707,0.9391
+sample_size,35,35,1.0,1.0
+any_validation_none,142,172,0.8244,0.5245

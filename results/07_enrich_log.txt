@@ -1,0 +1,30 @@
+共识 DEG: 719 
+'select()' returned 1:1 mapping between keys and columns
+Warning message:
+In bitr(cons_degs, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db) :
+  1.25% of input gene IDs are fail to map...
+成功映射 ENTREZ: 710 / 719 
+GO-BP 显著条目:315
+GO-MF 显著条目:24
+GO-CC 显著条目:53
+KEGG 基因集条目: 186 
+KEGG 显著条目: 7 
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(unique(tcga_deg$gene), fromType = "SYMBOL", toType = "ENTREZID",  :
+  21.93% of input gene IDs are fail to map...
+GSEA 排序基因数: 21136 
+Warning messages:
+1: In prepare_gsea_inputs(geneList, scoreType, exponent) :
+  There are ties in the preranked stats (0% of the list). The order of those tied genes will be arbitrary, which may produce unexpected results.
+2: In gsea(geneList = geneList, gene_sets = geneSets, weight = weight,  :
+  For some pathways, in reality P-values are less than 1e-10. You can set the eps argument to zero for better estimation.
+GSEA-KEGG 显著条目: 65 
+Warning messages:
+1: In prepare_gsea_inputs(geneList, scoreType, exponent) :
+  There are ties in the preranked stats (0% of the list). The order of those tied genes will be arbitrary, which may produce unexpected results.
+2: In gsea(geneList = geneList, gene_sets = geneSets, weight = weight,  :
+  For some pathways, in reality P-values are less than 1e-10. You can set the eps argument to zero for better estimation.
+GSEA-Hallmark 显著条目: 31 
+
+07_enrichment 完成
