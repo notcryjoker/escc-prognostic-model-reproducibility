@@ -9,7 +9,15 @@ suppressPackageStartupMessages({
   library(data.table); library(matrixStats); library(jsonlite)
 })
 
-base <- "/workspace/escc_bioinformatics"
+base <- Sys.getenv("ESCC_ROOT", unset = "")
+
+if (!nzchar(base)) {
+
+  base <- tryCatch(dirname(dirname(normalizePath(sys.frame(1)$ofile))),
+
+                error = function(e) getwd())
+
+}
 geo_dir <- file.path(base, "data/geo")
 anno_dir <- file.path(geo_dir, "platform_anno")
 out_dir <- file.path(base, "results")

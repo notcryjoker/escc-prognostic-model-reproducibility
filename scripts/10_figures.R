@@ -16,7 +16,15 @@ suppressPackageStartupMessages({
   library(VennDiagram); library(grid); library(patchwork)
 })
 
-base <- "/workspace/escc_bioinformatics"
+base <- Sys.getenv("ESCC_ROOT", unset = "")
+
+if (!nzchar(base)) {
+
+  base <- tryCatch(dirname(dirname(normalizePath(sys.frame(1)$ofile))),
+
+                error = function(e) getwd())
+
+}
 out_dir <- file.path(base, "results")
 fig_dir <- file.path(base, "figures")
 dir.create(fig_dir, showWarnings = FALSE)

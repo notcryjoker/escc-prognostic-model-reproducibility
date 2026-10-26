@@ -16,7 +16,9 @@ TRIPOD 报告规范导向的审计（基于标题+摘要）
 """
 import csv, re, os, json
 
-OUT = "/workspace/escc_bioinformatics/results/literature_audit"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+OUT = os.path.join(ROOT, "results", "literature_audit")
 rows = list(csv.DictReader(open(f"{OUT}/audit_records.csv", encoding="utf-8")))
 mod = [r for r in rows if r["is_model_study"] == "1" and r["has_abstract"] == "1"]
 n = len(mod)

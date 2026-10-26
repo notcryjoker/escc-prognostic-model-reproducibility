@@ -15,7 +15,15 @@ suppressPackageStartupMessages({
   library(GSVA); library(data.table); library(ggplot2); library(pheatmap)
 })
 
-base <- "/workspace/escc_bioinformatics"
+base <- Sys.getenv("ESCC_ROOT", unset = "")
+
+if (!nzchar(base)) {
+
+  base <- tryCatch(dirname(dirname(normalizePath(sys.frame(1)$ofile))),
+
+                error = function(e) getwd())
+
+}
 out_dir <- file.path(base, "results")
 
 # ---------- 1. Marker gene sets for 28 immune cell types (Charoentong et al., Cancer Res 2012) ----------

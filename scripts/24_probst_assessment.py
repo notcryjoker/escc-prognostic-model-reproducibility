@@ -17,7 +17,9 @@ PROBAST 判定规则（Wolff et al. 2019）：
 import csv, re, os, json
 from collections import Counter
 
-OUT = "/workspace/escc_bioinformatics/results/literature_audit"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+OUT = os.path.join(ROOT, "results", "literature_audit")
 FT = f"{OUT}/fulltext"
 
 recs = list(csv.DictReader(open(f"{OUT}/audit_records.csv", encoding="utf-8")))

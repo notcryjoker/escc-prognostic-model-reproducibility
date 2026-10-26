@@ -9,7 +9,8 @@
 import urllib.request, urllib.parse, json, csv, re, time, os, sys, subprocess
 
 BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-OUT = "/workspace/escc_bioinformatics/results/literature_audit"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "results", "literature_audit")
 FT = f"{OUT}/fulltext"
 os.makedirs(FT, exist_ok=True)
 EMAIL = "openaccess@example.com"

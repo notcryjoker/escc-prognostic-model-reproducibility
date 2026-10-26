@@ -1,6 +1,6 @@
 #!/bin/bash
 # GSE53624 系列矩阵多段并行下载（零填充命名，避免字典序拼接错误）
-cd /workspace/escc_bioinformatics/data/geo
+cd "$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/data/geo"
 
 URL="https://ftp.ncbi.nlm.nih.gov/geo/series/GSE53nnn/GSE53624/matrix/GSE53624_series_matrix.txt.gz"
 SIZE=71937810

@@ -47,7 +47,15 @@
 rm(list = ls())
 suppressMessages({ library(survival); library(glmnet) })
 
-base <- "/workspace/escc_bioinformatics"
+base <- Sys.getenv("ESCC_ROOT", unset = "")
+
+if (!nzchar(base)) {
+
+  base <- tryCatch(dirname(dirname(normalizePath(sys.frame(1)$ofile))),
+
+                error = function(e) getwd())
+
+}
 out_dir <- file.path(base, "results")
 SEED <- 20231021   # 与脚本 14/15 一致
 B <- 100
