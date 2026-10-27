@@ -1,8 +1,8 @@
 {
   "title": "Apparent versus generalizable performance of an ESCC transcriptomic prognostic model: analysis code and results",
   "upload_type": "software",
-  "version": "1.0",
-  "publication_date": "2026-10-25",
+  "version": "1.1",
+  "publication_date": "2026-10-27",
   "creators": [
     {
       "name": "Xu, Yang",
@@ -30,8 +30,9 @@
   ],
   "license": "MIT",
   "access_right": "open",
-  "notes": "Random seeds are fixed inside each script. See README.md for the full reproduction protocol. The failed GSE53624 external-validation attempt (platform annotation without gene symbols) is documented in the repository and in the manuscript Limitations.",
+  "notes": "Random seeds are fixed inside each script. See README.md for the full reproduction protocol. The failed GSE53624 external-validation attempt (platform annotation without gene symbols) is documented in the repository and in the manuscript Limitations. v1.1 (2026-10-27) replaces all hardcoded sandbox absolute paths in the 21 analysis scripts with dynamic repository-root resolution (R: Sys.getenv('ESCC_ROOT'); Python: os.path.dirname(os.path.dirname(__file__)); shell: BASH_SOURCE). No scientific results or outputs changed. The concept DOI 10.5281/zenodo.23643162 always resolves to the latest version.",
   "doi": "10.5281/zenodo.23643162",
+  "version_doi": "10.5281/zenodo.23686014",
   "record_url": "https://zenodo.org/records/23643162",
   "github": "https://github.com/notcryjoker/escc-prognostic-model-reproducibility",
   "status": "published"
